@@ -35,7 +35,7 @@ const requestHandler = (req, res) => {
             res.write('<button type="submit">Submit</button>');
             res.write('</form>');
             res.write('</body></html>');
-            // res.end();
+            res.end();
 
             res.end();
         });
